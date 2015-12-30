@@ -1,0 +1,51 @@
+{
+  "author": {
+    "email": "devin.canterberry@outreach.io",
+    "name": "Devin Canterberry"
+  },
+  "bugs": {
+    "url": "https://github.com/getoutreach/lazy-as-promised/issues"
+  },
+  "contributors": [
+    {
+      "name": "Devin Canterberry",
+      "email": "devin.canterberry@outreach.io"
+    }
+  ],
+  "description": "Designed for use with Mocha Lazy BDD. Resolves your lazy promises for you.",
+  "devDependencies": {
+    "chai": "3.4.1",
+    "chai-as-promised": "5.2.0",
+    "mocha": "2.3.4",
+    "mocha-lazy-bdd": "0.0.6"
+  },
+  "directories": {},
+  "homepage": "https://github.com/getoutreach/lazy-as-promised",
+  "keywords": [
+    "test",
+    "bdd",
+    "lazy",
+    "mocha",
+    "promise"
+  ],
+  "license": "MIT",
+  "main": "lib/lazy-as-promised.js",
+  "maintainers": [
+    {
+      "name": "Devin Canterberry",
+      "email": "devin.canterberry@outreach.io"
+    }
+  ],
+  "name": "lazy-as-promised",
+  "optionalDependencies": {},
+  "readme": "ERROR: No README data found!",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/getoutreach/lazy-as-promised.git"
+  },
+  "scripts": {
+    "browser": "webpack index.js dist/mocha-lazy-bdd.js",
+    "test": "node bin/test.js"
+  },
+  "version": "1.0.0"
+}
